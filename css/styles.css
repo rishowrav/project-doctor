@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap");
+
+.abeezee-regular {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
 .main-menu a:hover {
   background: linear-gradient(to left, #9b5de5, #f15bb5);
   color: white;
@@ -20,12 +32,4 @@
   border: none;
   border-radius: 10px;
   background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
-}
-
-.gradient-button:hover {
-  background: linear-gradient(to left, #7f33d2, #e84393);
-}
-
-.gradient-button:focus {
-  box-shadow: 0 0 0 4px rgba(128, 90, 213, 0.4);
 }
