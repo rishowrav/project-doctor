@@ -23,7 +23,7 @@
     <!---------------------------------------------
                         Navbar Section
     ----------------------------------------------->
-    <nav class="bg-white box-shadow border border-black">
+    <nav class="bg-white box-shadow border border-black fixed w-full">
       <div
         class="container mx-auto lg:w-[1250px] px-4 py-2 flex justify-between items-center"
       >
@@ -32,9 +32,9 @@
         </div>
         <!-- large device -->
         <div class="hidden lg:flex main-menu">
-          <a href="#" class="">Home</a>
-          <a href="#" class="">Login</a>
-          <a href="#" class="">Doctors</a>
+          <a href="./index.html" class="">Home</a>
+          <a href="./Login.html" class="">Login</a>
+          <a href="./medicine.html" class="">Doctors</a>
           <a href="#" class="">Medicine</a>
           <a href="#" class="">Service</a>
           <a href="#" class="">Contact</a>
@@ -70,10 +70,14 @@
       </div>
       <!-- small device -->
       <div id="menu" class="lg:hidden hidden">
-        <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-200"
+        <a
+          href="./index.html"
+          class="block px-4 py-2 text-gray-600 hover:bg-gray-200"
           >Home</a
         >
-        <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-200"
+        <a
+          href="./Login.html"
+          class="block px-4 py-2 text-gray-600 hover:bg-gray-200"
           >Login</a
         >
         <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-200"
@@ -90,6 +94,9 @@
         >
       </div>
     </nav>
+
+    <!-- divider -->
+    <div class="h-24"></div>
 
     <!---------------------------------------------
                           Banner Section
