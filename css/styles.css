@@ -1,0 +1,31 @@
+.main-menu a:hover {
+  background: linear-gradient(to left, #9b5de5, #f15bb5);
+  color: white;
+}
+
+.main-menu a {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.help-btn {
+  padding: 10px 45px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+}
+
+.gradient-button:hover {
+  background: linear-gradient(to left, #7f33d2, #e84393);
+}
+
+.gradient-button:focus {
+  box-shadow: 0 0 0 4px rgba(128, 90, 213, 0.4);
+}
